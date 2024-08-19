@@ -1,0 +1,90 @@
+<?php
+
+return [
+  'simpan rechedule' => 'Simpan Data Reschedule ?',
+  'simpan jadwal' => 'Simpan Pengajuan Jadwal ?',
+  'simpan rechedule' => 'Simpan Data Reschedule ?',
+  'is rekomendasi' => 'Tanggal permintaan survey dari pelanggan?',
+  'tanggal permintaan instalasi dari pelanggan' =>  'Tanggal permintaan instalasi dari pelanggan?',
+  'jam rekomendasi' => 'Jam Permintaan',
+  'tgl rekomendasi' => 'Tanggal Permintaan Dari Pelanggan',
+  'tgl request' => 'Tgl Request Pelanggan',
+  'keterangan' => 'Keterangan',
+  'alasan' => 'Alasan Reschedule',
+  'dipilih' => 'Dipilih',
+  'ditolak' => 'Ditolak',
+  'kosong' => 'Jadwal Belum Ditambah',
+  'reschedule' => 'Reschedule Jadwal',
+  'button' => [
+    'ok' => 'Ok',
+    'pilih' => 'Pilih',
+    'close' => 'Cancel',
+    'batal pilih' => 'Batal pilih',
+    'modal simpan' => 'Simpan',
+    'simpan jadwal' => 'Simpan Jadwal',
+    'tambah jadwal' => 'Tambah Jadwal',
+    'add reschedule' => 'Ajukan Reschedule',
+    'cancel reschedule' => 'Batal Reschedule',
+    'pick rekomendasi' => 'Pilih Sesuai Tgl Permintaan',
+    'tambah opsi jadwal' => 'Masukkan pilihan jadwal',
+    'tambah teknisi' => '+ Tambah Teknisi',
+    'batal edit jadwal' => 'Batal Edit Jadwal',
+    'edit jadwal' => 'Edit Jadwal',
+  ],
+  'table survey' => [
+    'no' => 'No',
+    'tgl' => 'Tanggal',
+    'waktu' => 'Waktu',
+    'action' => 'Action',
+  ],
+  'see history' => "See History",
+  'table history' => [
+    'no' => 'No',
+    'tgl' => 'Tgl',
+    'jam' => 'Jam',
+    'status' => 'Status'
+  ],
+  'messages success' => 'Proses berhasil',
+  'pilih tanggal' => "Pilih Tanggal Permintaan",
+  'belum memilih' => "Harap pilih jadwal terlebih dahulu",
+  'unique' => "Data Jadwal tidak boleh sama",
+  'teknisi kosong' => "Data Teknisi tidak boleh kosong",
+  'survey' => [
+    'title' => 'Jadwal Survey',
+    'tanggal dipilih' => 'Jadwal Survey Terpilih',
+    'jam rekomendasi' => 'Jam Permintaan',
+    'pilihan tgl' => 'Pilihan tanggal survey',
+    'history pengajuan' => "Riwayat pengajuan jadwal survey",
+    'messages' => [
+      'confirm rekomendasi' => "Pilih tanggal survey?",
+      'required jadwal' => "Harap masukkan jadwal yang sesuai",
+      'signal kosong'=>'Tidak terdapat signal access point yang ditambahkan',
+      'jalur kosong'=>'Tidak terdapat jalur kabel yang ditambahkan',
+    ],
+    'jadwal belum' => 'Jadwal Survey belum di tambahkan'
+  ],
+  'instalasi' => [
+    'teknisi' => 'Teknisi Instalasi',
+    'title' => 'Jadwal Instalasi',
+    'tanggal dipilih' => 'Jadwal Instalasi Terpilih',
+    'pilihan tgl' => 'Pilihan tanggal instalasi',
+    'history pengajuan' => "Riwayat pengajuan jadwal instalasi",
+    'messages' => [
+      'confirm rekomendasi' => "Pilih tanggal instalasi?",
+      'required jadwal' => "Harap masukkan jadwal yang sesuai",
+      'tidak sesuai' => "Tidak ada slot instalasi yang sesuai dengan rekomendasi",
+      'teknisi required' => 'Harap masukkan teknisi yang bertugas',
+      'jadwal kosong' => 'Jadwal belum ditambahkan',
+      'jadwal sama' => 'Jadwal yang dimasukkan tidak boleh sama',
+      'simpan jadwal' => 'Simpan jadwal instalasi ?',
+      'alasan reschedule' => 'Alasan reschedule',
+    ],
+    'jadwal belum' => 'Jadwal Instalasi belum di tambahkan',
+    'table header' => [
+      'no' => 'No',
+      'tanggal' => 'Tanggal',
+      'slot' => 'Slot',
+      'action' => 'Action'
+    ]
+  ]
+];

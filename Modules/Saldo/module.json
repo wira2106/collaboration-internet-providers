@@ -1,0 +1,23 @@
+{
+    "name": "Saldo",
+    "alias": "saldo",
+    "description": "",
+    "keywords": [],
+    "version": "1.0.0",
+	"active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Saldo\\Providers\\SaldoServiceProvider",
+        "Modules\\Saldo\\Providers\\RouteServiceProvider",
+        "Modules\\Saldo\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "widgets" : [
+        "Modules\\Saldo\\Widgets\\SaldoWidget"
+    ],
+    "files": [
+        
+    ],
+    "requires": []
+    
+}

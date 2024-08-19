@@ -1,0 +1,24 @@
+{
+    "name": "Wilayah",
+    "alias": "wilayah",
+    "description": "",
+    "keywords": [],
+    "version": "1.0.0",
+	"active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Wilayah\\Providers\\WilayahServiceProvider",
+        "Modules\\Wilayah\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "widgets": [
+        "Modules\\Wilayah\\Widgets\\TotalWilayahWidget",
+        "Modules\\Wilayah\\Widgets\\ListWilayahOSPWidget",
+        "Modules\\Wilayah\\Widgets\\ListWilayahISPWidget",
+        "Modules\\Wilayah\\Widgets\\ListPengajuanWilayahWidget"
+    ],
+    "files": [
+        
+    ],
+    "requires": []
+}

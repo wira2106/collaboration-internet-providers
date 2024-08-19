@@ -1,0 +1,8 @@
+.attachments-image {
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid #b8b8fb;
+  display: inline-block;
+}

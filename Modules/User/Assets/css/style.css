@@ -1,0 +1,695 @@
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 5px !important;
+    transform: translateY(-50%);
+}
+
+.form-control-odp{
+    font-size: .675rem !important;
+}
+
+.search-latlong{
+    display: none;
+}
+
+.btn-add-marker{
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    font-size: 15px;
+}
+
+.modal-bottom{
+    z-index: 99999;
+    position: absolute;
+    bottom: 0;
+    height: 90%;
+    width: calc(100% - 20px);
+    background-color: white;
+    left: 10px;
+    padding: 20px;    
+    margin-bottom: -90%;
+}
+
+.pick-odp{
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 20px);
+    left: 10px;
+    height: 25%;
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    box-shadow: grey 5px 5px 8px 5px;
+    border: 1px solid #929492;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.pilih-odp-fix{
+    position: absolute;
+    bottom: 10px;
+    width: calc(100% - 20px);
+    left: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: grey 5px 5px 8px 5px;
+    border: 1px solid #929492;
+    overflow-y: auto;
+    z-index: 1;
+}
+.btn.focus, .btn:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.btn-list-odp{
+  position: absolute;
+  top: 135px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+}
+.btn-list-rumah{
+  position: absolute;
+  top: 180px;
+  right: 10px;
+  width: 40px;
+  font-size: 15px;
+  padding-left: 11px;
+}
+
+.btn-list-tiang{
+  position: absolute;
+  top: 222px;
+  right: 10px;
+  width: 40px;
+  font-size: 15px;
+  padding-left: 11px;
+}
+
+.btn-list-pengaturan {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 11px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+}
+
+.btn-group-pengaturan {
+  position: absolute;
+  right: 60px;
+  top: 76px;
+}
+
+.dropleft .dropdown-toggle::before {
+  display:none!important;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 25px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.label-swith-lines{
+    position: absolute;
+    right: 55px;
+    /* top: 67px; */
+    margin-top: 25px;
+}
+
+.label-swith-rumah {
+  position: absolute;
+  right: 55px;
+  /* top: 67px; */
+  margin-top: 120px;
+}
+
+.label-swith-odp {
+  position: absolute;
+  right: 55px;
+  /* top: 67px; */
+  margin-top: 77px;
+}
+
+.text-lines{
+    position: absolute;
+    margin: 0;
+    right: 67px;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text-lines-odp{
+    position: absolute;
+    margin: 0;
+    right: 16px;
+    top: 115px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.wilayah-list-odp{
+  font-size: 10px;
+}
+
+.btn-action-marker {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-edit-marker-rumah{
+  text-align: center;
+}
+
+.btn-edit-marker-odp{
+  text-align: center;
+}
+
+#btn-odp{
+  transition: 0.2s;
+}
+#btn-rumah{
+  transition: 0.1s;
+}
+#btn-tiang{
+  transition: 0.3s;
+}
+
+.span-jumlah-rumah{
+    font-size: 10px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 26px;
+    border-radius: 50%;
+    border: 1px solid;
+    /* text-align: center; */
+    padding-top: 2px;
+    bottom: 0px;
+}
+
+.copied{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  display: none;
+}
+
+.salinkepapan
+{
+    width: 100%;
+    background-color: #305252c2;
+    padding: 7px 40px;
+    color: white;
+    border-radius: 20px;
+}
+
+.resetLinePreview{
+  display: none;
+  position: absolute;
+  right: 11px;
+  bottom: 230px;
+}
+.resetLinePreview > button{
+  /*border-radius: 50%;*/
+  width: 40px;
+  height: 40px;
+}
+
+.list_users{
+  width: 100%;
+}
+.fill_nama{
+  width: 73%;display: inline-block;
+}
+.fill_role{
+  width: 25%;display: inline-block;
+}
+.role_admin{
+  padding: 1px 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.fill_nama a {
+    color: #007bff !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+    -webkit-text-decoration-skip: objects;
+}
+
+.card-tools{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+.northIcon{
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  width: 30px;
+  opacity: 0.5;
+}
+
+.container_radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+/* Hide the browser's default radio button */
+.container_radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark_radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container_radio:hover input ~ .checkmark_radio {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container_radio input:checked ~ .checkmark_radio {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark_radio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container_radio input:checked ~ .checkmark_radio:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container_radio .checkmark_radio:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+
+.container-gantiWilayah {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  position: fixed;
+  pointer-events: none;
+  padding:50px;
+}
+
+
+.inputCariWilayah {
+  border-width: 0px;
+  background-color: rgba(0,0,0,0);
+  padding: 10px;
+  color: white !important;
+}
+
+.inputCariWilayah:focus{
+  background-color: rgba(0,0,0,0);
+  outline:0px !important;
+}
+
+
+.inputCariWilayah::placeholder{
+  color: white;
+  
+}
+
+#tableGantiWilayah thead tr:first-child {
+  border-bottom: white 3px solid;
+}
+#tableGantiWilayah tr:last-child {
+  border-bottom: 0px;
+}
+
+#tableGantiWilayah tr:last-child:hover, #tableGantiWilayah tr:first-child:hover{
+  cursor: pointer;
+  background-color: #7386D5;
+}
+
+#tableWilayah tr {
+  border-bottom: white 1px solid !important;
+  padding:20px;
+  color:white;
+}
+#tableWilayah tr:hover {
+  cursor: pointer;
+  background-color: #7386D5;
+}
+#tableWilayah tr td {
+  padding: 15px;
+}
+
+.menuCariWilayah {
+  opacity: 0;
+  transition: visible 0s, opacity 0.5s linear;
+  pointer-events: none;
+}
+.menuCariWilayah.active {
+  display: block;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  visibility: visible;
+  transition: visible 0s, opacity 0.5s linear;
+  pointer-events: all;
+  opacity: 1;
+}
+
+#gantiProject:hover {
+  cursor: pointer;
+}
+
+.dropdown-menu-wilayah {
+  left:30px !important;
+}
+
+.bg-app {
+  background:#7386D5;color:white
+}
+
+
+.overlay-form.loading {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.cluster {
+  pointer-events: none !important;
+}
+
+.wrapper-list-tiang {
+  max-height: 450px;
+  overflow-x: auto;
+}
+
+.list-tiang-item {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: rgba(0,0,0,0.3);
+  margin-bottom: 10px;
+}
+
+.list-tiang-item p:first-child {
+  margin-bottom: 0px;
+  color:black;
+}
+.list-tiang-item p:last-child{
+  font-size: 8pt;
+  color:black;
+}
+.list-tiang-item:last-child{
+  border-bottom-width: 0px!important;
+}
+
+#idGantiApp {
+  height:54px;
+  text-align-last: center;
+  background: rgba(0,0,0,0);
+  color: white;
+  border-width: revert;
+  border-color: white;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#idGantiApp option:not(first-child) {
+  color: #000;
+}
+
+#idGantiApp:focus {
+  outline: none !important;
+}
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  margin: 8px 0px;
+}
+
+.hr-sect::before, .hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+.hr-sect::before, .hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+.image-area {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: none;
+}
+
+.input-file {
+  cursor: pointer;
+  position: relative;
+  display:block;
+  height:150px;
+  width:150px;
+  background:#C4C4C4;
+  border-radius:50%;
+}
+
+.input-file:hover::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  border-radius: 50%;
+  top:0;
+  left:0;
+}
+.input-file::after {
+  content: "";
+  background: url("../img/upload-50x50.png") no-repeat center center;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  transform: scale(0.3);
+  position: absolute;
+  z-index: 1;
+  top:0;
+  left: 0;
+}
+
+.form-image {
+  position: relative;
+}
+
+.form-group.form-image.close::before {
+  content: "";
+  background: red;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  right: 10px;
+  z-index: 1;
+  top: 5px;
+  border-radius: 50%;
+}
+
+.form-group.form-image.close::after {
+  content: "\00d7";
+  position: absolute;
+  right: 14px;
+  top: 5px;
+  z-index: 2;
+}
+
+.container-gantiWilayah .select2-container--default .select2-selection--single {
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  border: 0.5px solid #aaa;
+  border-radius: 0px!important;
+  padding: 10px;
+  border-width: 1px;
+  border-color: white;
+  border-left: 0px;
+  border-right: 0px;
+}
+.container-gantiWilayah .selection__rendered {
+  color: white!important;
+}
+
+.container-gantiWilayah .select2-container .select2-selection--single {
+  height: auto!important;
+}
+.container-gantiWilayah .select2-container .select2-selection--single .select2-selection__rendered{
+  color: white!important;
+}
+.container-gantiWilayah .select2-container .select2-selection--single .select2-selection__arrow{
+  height: 26px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 20px;
+}
+
+
+#pindahPengguna .select3-container--focus{
+  border: 0px!important;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.step-index{
+  width: 15px;
+  height: 15px;
+  background: #e9e9e9;
+  border-radius: 50% !important;
+  display: inline-block;
+}
+.step-index.active{
+  background: #007bff;
+}
+.step-content{
+  display: none;
+}
+.step-content.active{
+  display: block;
+}
+.btn-trip-prev{
+  display: none;
+}
+
+.gm-ui-hover-effect {
+  top: -5px !important;
+  right: -2px !important;
+}
+
+.gm-ui-hover-effect img{
+  height:20px !important;
+  width: 20px !important;
+}
+
+.gm-style-iw {
+  padding:20px 0px 0px 20px !important;
+}

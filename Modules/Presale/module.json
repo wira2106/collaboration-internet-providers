@@ -1,0 +1,19 @@
+{
+    "name": "Presale",
+    "alias": "presale",
+    "description": "",
+    "keywords": [],
+    "version": "1.0.0",
+	"active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Presale\\Providers\\PresaleServiceProvider",
+        "Modules\\Presale\\Providers\\RouteServiceProvider",
+        "Modules\\Presale\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        
+    ],
+    "requires": []
+}

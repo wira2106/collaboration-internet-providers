@@ -1,0 +1,25 @@
+{
+    "name": "Pelanggan",
+    "alias": "pelanggan",
+    "description": "",
+    "keywords": [],
+    "version": "1.0.0",
+	"active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Pelanggan\\Providers\\PelangganServiceProvider",
+        "Modules\\Pelanggan\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        
+    ],
+    "widgets" : [
+        "Modules\\Pelanggan\\Widgets\\TotalAktifWidget",
+        "Modules\\Pelanggan\\Widgets\\TotalAktivasiWidget",
+        "Modules\\Pelanggan\\Widgets\\TotalInstalasiWidget",
+        "Modules\\Pelanggan\\Widgets\\TotalSOWidget",
+        "Modules\\Pelanggan\\Widgets\\TotalSurveyWidget"
+    ],
+    "requires": []
+}

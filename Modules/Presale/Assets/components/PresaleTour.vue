@@ -1,0 +1,113 @@
+<template>
+  <div>
+      <!-- Touring -->
+    <v-tour
+      name="tambah_endpoint"
+      :steps="tambah_endpoint"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="hapus_endpoint"
+      :steps="hapus_endpoint"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="tambah_presale"
+      :steps="tambah_presale"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="edit_data_endpoint"
+      :steps="edit_data_endpoint"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="edit_location_endpoint"
+      :steps="edit_location_endpoint"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="edit_location_presale"
+      :steps="edit_location_presale"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="edit_data_presale"
+      :steps="edit_data_presale"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="hapus_presale"
+      :steps="hapus_presale"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="tampilkan_jalur_kabel_endpoint_ke_presale"
+      :steps="tampilkan_jalur_kabel_endpoint_ke_presale"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="hide_marker_presale"
+      :steps="hide_marker_presale"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="tampilkan_jalur_kabel_presale"
+      :steps="tampilkan_jalur_kabel_presale"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="hide_marker_endpoint"
+      :steps="hide_marker_endpoint"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="menampilkan_presale_yang_dicari"
+      :steps="menampilkan_presale_yang_dicari"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="konfirmasi_presale"
+      :steps="konfirmasi_presale"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="konfirmasi_endpoint"
+      :steps="konfirmasi_endpoint"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+    <v-tour
+      name="order_pelanggan"
+      :steps="order_pelanggan"
+      :callbacks="callbacks_tour"
+      :options="tour_options"
+    />
+  </div>
+</template>
+
+<script>
+import guide from '../mixins/guide'
+
+export default {
+    mixins: [guide]
+}
+</script>
+
+<style>
+
+</style>

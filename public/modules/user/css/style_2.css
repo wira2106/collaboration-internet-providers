@@ -1,0 +1,304 @@
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 5px !important;
+    transform: translateY(-50%);
+}
+
+.form-control-odp{
+    font-size: .675rem !important;
+}
+
+.search-latlong{
+    display: none;
+}
+
+.btn-add-marker{
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+}
+
+.modal-bottom{
+    z-index: 99999;
+    position: absolute;
+    bottom: 0;
+    height: 90%;
+    width: calc(100% - 20px);
+    background-color: white;
+    left: 10px;
+    padding: 20px;    
+    margin-bottom: -90%;
+}
+
+.pick-odp{
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 20px);
+    left: 10px;
+    height: 25%;
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    box-shadow: grey 5px 5px 8px 5px;
+    border: 1px solid #929492;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.pilih-odp-fix{
+    position: absolute;
+    bottom: 10px;
+    width: calc(100% - 20px);
+    left: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: grey 5px 5px 8px 5px;
+    border: 1px solid #929492;
+    overflow-y: auto;
+    z-index: 1;
+}
+.btn.focus, .btn:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.btn-list-odp{
+    position: absolute;
+    top: 135px;
+    right: 10px;
+}
+.btn-list-rumah{
+  position: absolute;
+  top: 180px;
+  right: 10px;
+  width: 40px;
+  font-size: 15px;
+  padding-left: 11px;
+}
+
+.btn-list-pengaturan {
+  position: absolute;
+  top: 160px;
+  right: 10px;
+  width: 40px;
+  font-size: 15px;
+  padding-left: 11px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+}
+
+.btn-group-pengaturan {
+  position: absolute;
+  right: 0px;
+}
+
+.dropleft .dropdown-toggle::before {
+  display:none!important;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 25px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.label-swith-lines{
+    position: absolute;
+    right: 55px;
+    /* top: 67px; */
+    margin-top: 25px;
+}
+
+.label-swith-rumah {
+  position: absolute;
+  right: 55px;
+  /* top: 67px; */
+  margin-top: 120px;
+}
+
+.label-swith-odp {
+  position: absolute;
+  right: 55px;
+  /* top: 67px; */
+  margin-top: 77px;
+}
+
+.text-lines{
+    position: absolute;
+    margin: 0;
+    right: 67px;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text-lines-odp{
+    position: absolute;
+    margin: 0;
+    right: 16px;
+    top: 115px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.wilayah-list-odp{
+  font-size: 10px;
+}
+
+.btn-action-marker {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-edit-marker-rumah{
+  text-align: center;
+}
+
+.btn-edit-marker-odp{
+  text-align: center;
+}
+
+#btn-odp{
+  transition: 0.2s;
+}
+#btn-rumah{
+  transition: 0.1s;
+}
+
+.span-jumlah-rumah{
+    font-size: 10px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 26px;
+    border-radius: 50%;
+    border: 1px solid;
+    /* text-align: center; */
+    padding-top: 2px;
+    bottom: 0px;
+}
+
+.copied{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  display: none;
+}
+
+.salinkepapan
+{
+    width: 100%;
+    background-color: #305252c2;
+    padding: 7px 40px;
+    color: white;
+    border-radius: 20px;
+}
+
+.resetLinePreview{
+  display: none;
+  position: absolute;
+  right: 11px;
+  bottom: 230px;
+}
+.resetLinePreview > button{
+  /*border-radius: 50%;*/
+  width: 40px;
+  height: 40px;
+}
+
+.list_users{
+  width: 100%;
+}
+.fill_nama{
+  width: 73%;display: inline-block;
+}
+.fill_role{
+  width: 25%;display: inline-block;
+}
+.role_admin{
+  padding: 1px 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.fill_nama a {
+    color: #007bff !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+    -webkit-text-decoration-skip: objects;
+}
+
+.card-tools{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+.northIcon{
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  width: 30px;
+  opacity: 0.5;
+}
